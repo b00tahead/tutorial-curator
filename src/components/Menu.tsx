@@ -5,7 +5,7 @@ export default function Menu({ menuType }: { menuType: 'mobile' | 'desktop' }) {
 
   const menuClasses = isDesktop
     ? 'hidden p-8 lg:flex lg:border-0'
-    : 'p-8 border-b lg:hidden'
+    : 'p-8 border-b border-dotted lg:hidden'
 
   const navClasses = isDesktop ? 'flex items-center' : 'flex justify-center'
 
