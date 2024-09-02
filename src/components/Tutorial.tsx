@@ -5,5 +5,5 @@ export default function Tutorial() {
       <p>Brief description</p>
       <p>Link to content</p>
     </div>
-  );
+  )
 }
